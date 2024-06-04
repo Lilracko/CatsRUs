@@ -11,10 +11,6 @@ body{
     color: #f9faf8;
     font-size: 48px;
 }
-.Heading{
-    display: flex;
-    justify-content: center;
-}
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
@@ -33,10 +29,15 @@ body{
     font-size: 24px;
     display: flex;
 }
+.Right{
+    display: flex;
+    flex-direction: column;
+}
 .Hlinks{
     display: flex;
-    margin-left: 200px;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
 }
 .link{
     display: flex;
@@ -63,6 +64,7 @@ button{
 }
 .cat{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .left{
