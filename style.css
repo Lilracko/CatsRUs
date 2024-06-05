@@ -6,6 +6,8 @@ body{
 .Part-1{
     background-color: #1f2937;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .Main{
     color: #f9faf8;
@@ -64,6 +66,9 @@ button{
 }
 .Part-2{
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cat{
     display: flex;
@@ -87,7 +92,7 @@ button{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100px;
+    width: 150px;
     margin-top: 0;
 }
 .Heading2{
@@ -139,7 +144,13 @@ button{
 .Call{
     display: flex;
     flex-direction: column;
+    font-size: 30px;
 }
 .smlltxt{
     filter: contrast(50%);
+    font-size: 20px;
+}
+.Sign{
+   border-color: #F9FAF8; 
+   font-size: 17px;
 }
