@@ -16,7 +16,6 @@ body{
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
-    font-weight: lighter;
     display: flex;
     filter: contrast(50%);
 }
@@ -56,13 +55,15 @@ body{
 button{
     display: flex;
     background-color: #3882f6;
-    font-size: 15px;
+    font-size: 17px;
     color: #F9FAF8;
     border-radius: 8px;
-    height: 33px;
-    width: 125px;
+    padding: 10px 35px;
     align-items: center;
     justify-content: center;
+}
+.button{
+    border-width: 0;
 }
 .Part-2{
     height: 500px;
@@ -151,6 +152,9 @@ button{
     font-size: 20px;
 }
 .Sign{
-   border-color: #F9FAF8; 
-   font-size: 17px;
+    border: 2px solid white;
+    color: white; /* Text color */
+    padding: 10px 35px; /* Adjust padding as needed */
+    font-size: 17px; /* Adjust font size as needed */
+    border-radius: 8px; /* Rounded corners */
 }
