@@ -94,3 +94,25 @@ button{
     font-weight: bolder;
     color: #1f2937;
 }
+.Part-3{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Quote{
+    font-size: 36px;
+    font-style: italic;
+    filter: contrast(50%);
+}
+.Name{
+    display: flex;
+    margin-left: auto;
+    font-size: 25px;
+}
